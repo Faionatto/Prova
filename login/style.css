@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 40px; 
+    background-color: #1e3a8a; 
+    color: #ffffff; 
+    font-family: sans-serif;
+}
+
+
+form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+label {
+    color: #555556;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #00ff3c;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0cb300;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: color 0.2s;
+}
+
+h2:hover {
+    text-decoration: underline;
+    color: #177de9;
+}
