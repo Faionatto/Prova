@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição na Prova</title>
+    <link rel="stylesheet" href="inscricao.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Inscrição na Prova</h1>
+        <form id="formulario">
+            <label>Língua Estrangeira</label>
+            <select id="lingua">
+                <option value="">Selecione</option>
+                <option value="Inglês">Inglês</option>
+                <option value="Espanhol">Espanhol</option>
+            </select>
+            <label>Estado</label>
+            <select id="estado">
+                <option value="">Selecione</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+            <label>Cidade</label>
+            <select id="cidade">
+                <option value="">Selecione</option>
+                <option value="Campinas">Campinas</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Sorocaba">Sorocaba</option>
+            </select>
+            <label>Necessita de atendimento especializado?</label>
+            <select id="atendimento">
+                <option value="">Selecione</option>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+            <div id="necessidadeDiv">
+                <label>Informe sua necessidade especializada</label>
+                <input type="text" id="necessidade" placeholder="Ex: Intérprete de Libras">
+            </div>
+            <button type="submit">
+                Confirmar Inscrição
+            </button>
+        </form>
+        <p id="mensagem"></p>
+    </div>
+</body>
+
+</html>

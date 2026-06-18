@@ -1,0 +1,50 @@
+*{
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.container{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    width:400px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+select,
+input[type="text"]{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+}
+button{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    cursor:pointer;
+}
+#necessidadeDiv{
+    display:none;
+}
+.erro{
+    color:red;
+    margin-top:15px;
+}
+.sucesso{
+    color:green;
+    margin-top:15px;
+}

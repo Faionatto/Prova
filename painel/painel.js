@@ -3,5 +3,5 @@ function irParaCursos() {
 }
 
 function irParaInscricao() {
-    window.location.href = "";
+    window.location.href = "../inscricao/inscricao.html";
 }
