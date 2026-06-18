@@ -32,7 +32,7 @@ formulario.addEventListener('submit', function (event) {
 
 function abrirLogin() {
 
-    window.location.href = "../formulario/formulario.html"; 
+    window.location.href = "../painel/painel.html"; 
     
 }
 
