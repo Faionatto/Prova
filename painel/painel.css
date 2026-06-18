@@ -41,11 +41,12 @@ header {
 .card {
     background-color: white;
     flex: 1; /* Faz os dois terem o mesmo tamanho */
-    padding: 30px;
+    padding: 60px 40px; /* AUMENTOU: 60px em cima/baixo e 40px nas laterais */
     text-align: center;
     font-weight: bold;
-    border-radius: 8px; /* Cantos arredondados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    font-size: 1.5rem; /* AUMENTOU: Deixa o texto maior e mais visível */
+    border-radius: 12px; /* Cantos um pouco mais arredondados para combinar */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra um pouco mais forte */
     cursor: pointer; /* Mostra a mãozinha do mouse */
 }
 
